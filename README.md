@@ -5,13 +5,8 @@
 [Alpine](https://hub.docker.com/_/alpine/) based container that provides useful tools when writing JS applications.
 
 ```bash
-docker pull optiflows/js-toolset
+docker pull surycat/js-toolset
 ```
-
-## Permissions
-
-The user `devuser` has sudoer permissions. Its `$HOME` path is `/home/devuser`.
-A Docker environment variable `WORKSPACE` point to this very folder, and it shall be used to store your app sources.
 
 ## Embedded tools
 
@@ -20,6 +15,4 @@ A Docker environment variable `WORKSPACE` point to this very folder, and it shal
 * yarn
 * bower
 * gulp
-* yo
-* chromium (through xvfb)
 * sass
